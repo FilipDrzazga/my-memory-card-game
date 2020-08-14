@@ -18,7 +18,8 @@ body {
 
   justify-content: center;
 
-  width: 100%;
+  width: 80%;
+  height: 50vh;
 
   margin: 150px auto 0;
 
@@ -29,8 +30,8 @@ body {
 .card {
   position: relative;
 
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   margin: 5px 5px;
 
 
@@ -71,11 +72,11 @@ body {
 
 .table {
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: 300px;
+  width: 250px;
   height: 150px;
 
   border: black solid 1px;
