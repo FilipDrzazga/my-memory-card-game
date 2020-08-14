@@ -19,7 +19,11 @@ body {
   justify-content: center;
 
   width: 80%;
+<<<<<<< HEAD
   height: 50%;
+=======
+  height: 50vh;
+>>>>>>> a0c6cb45c5748e68370086bf9dfb5d877fab69f6
 
   margin: 150px auto 0;
 
@@ -72,11 +76,15 @@ body {
 
 .table {
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
 
+<<<<<<< HEAD
   width: 230px;
+=======
+  width: 250px;
+>>>>>>> a0c6cb45c5748e68370086bf9dfb5d877fab69f6
   height: 150px;
   margin-top: 30px;
 
