@@ -77,33 +77,68 @@ body {
   transform: translate(-50%, -50%);
 
   width: 230px;
-  width: 250px;
   height: 150px;
-  margin-top: 30px;
+  margin-top: 5px;
 
-  border: black solid 1px;
-  border-radius: 10px;
   text-align: center;
 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .win {
-  font-size: 35px;
+  font-size: 20px;
   margin: 10px auto 0px;
 }
 
 .time {
-  font-size: 20px;
+  font-size: 15px;
   margin: 10px auto 0px;
+  padding-bottom: 7px;
 }
 
 .restart {
-  padding: 2px 7px;
-  margin: 15px auto 0px;
-  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px 22px;
+  margin: 12px auto 0px;
+  font-size: 10px;
   background-color: transparent;
   border: solid 1px black;
   border-radius: 5px;
   cursor: pointer;
+}
+
+@media (min-width: 360px) and (orientation: portrait) {
+  .game {
+    width: 85%;
+    height: 50%;
+    margin: 160px auto 0;
+  }
+
+  .card {
+    width: 70px;
+    height: 70px;
+    margin: 10px 15px;
+  }
+
+  .table {
+    width: 300px;
+    height: 150px;
+    margin-top: 5px;
+  }
+
+  .win {
+    font-size: 25px;
+    margin: 0px auto 5px;
+  }
+
+  .time {
+    font-size: 15px;
+    margin: 15px auto 5px;
+  }
+
+  .restart {
+    padding: 10px 15px;
+    margin: 9px auto 0px;
+    font-size: 12px;
+  }
 }
